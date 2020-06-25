@@ -1,4 +1,4 @@
-def checkOutfrom(repo,branch) {
+def checkOutFrom(repo,branch) {
   //repo = https://github.com/bhavinshah2/insecure-bank
   //branch = develop
   git branch: "$branch", url: "$repo"
