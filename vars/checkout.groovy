@@ -1,6 +1,6 @@
-def checkOutFrom() {
+def checkOutFrom(branch, repo) {
   
-  //git branch: "${branch}", url: "https://github.com/bhavinshah2/${repo}"
-  git branch: "develop", url: "https://github.com/bhavinshah2/insecure-bank" 
+  git branch: "${branch}", url: "https://github.com/bhavinshah2/${repo}"
+  //git branch: "develop", url: "https://github.com/bhavinshah2/insecure-bank" 
   
 }
