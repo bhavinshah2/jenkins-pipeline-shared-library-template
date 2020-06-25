@@ -1,5 +1,3 @@
- #! /bin/groovy
-
 def checkOutFrom(branch,repo) {
   //repo = https://github.com/bhavinshah2/insecure-bank
   //branch = develop
